@@ -10,14 +10,14 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Copy the entire React app source code to the container
-COPY . .
+# # Copy the entire React app source code to the container
+# COPY . .
 
-# Build the React app
-RUN npm run build
+# # Build the React app
+# RUN npm run build
 
-# Expose port 3000 (the port your Node.js app runs on)
-EXPOSE 3000
+# # Expose port 3000 (the port your Node.js app runs on)
+# EXPOSE 3000
 
-# Start the Node.js app
-CMD ["npm", "start"]
+# # Start the Node.js app
+# CMD ["npm", "start"]
