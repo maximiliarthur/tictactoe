@@ -12,7 +12,7 @@ jobs:
         with:
          fetch-depth: 0
       
-      - name: gitleaks
+      - name: gitleak
         uses: gitleaks/gitleaks-action@v2
 
 
